@@ -18,6 +18,6 @@ export class RootController {
     }
 
     static dummyPost(_Reqest, res: Response): Response {
-        return res.status(200).json({ status: "You aren't supposed to be posting here dummy OwO" });
+        return res.status(200).json({ status: "you aren't supposed to be posting here dummy OwO" });
     }
 }
